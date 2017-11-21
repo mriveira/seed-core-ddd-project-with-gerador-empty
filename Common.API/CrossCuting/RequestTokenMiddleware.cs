@@ -1,4 +1,4 @@
-﻿using Common.Domain.Base;
+using Common.Domain.Base;
 using Common.Domain.Model;
 using IdentityModel.Client;
 using Microsoft.AspNetCore.Builder;
@@ -43,10 +43,10 @@ namespace Common.API.Extensions
                         {
                             foreach (var item in claims
                                 .Select(_ => new KeyValuePair<string, object>(_.Type, _.Value)))
-                            {
-                                if (!claimsDictonary.ContainsKey(item.Key))
-                                    claimsDictonary.Add(item.Key, item.Value);
-                            }
+                                {
+                                    if (!claimsDictonary.ContainsKey(item.Key))
+                                        claimsDictonary.Add(item.Key, item.Value);
+                                }
 
                         }
 
