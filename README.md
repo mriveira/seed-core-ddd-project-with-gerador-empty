@@ -60,5 +60,7 @@ Seed vazio para projetos  SPA / DDD / Gerador
 
 23-) Clicar com botão direito na Solution, clicar na opção Properties, na opção Startup Project escolher Multiple Startup Projects e marcar como START os projetos Seed.Api e Sso.Server.Api
 
-24-) Rodar no prompt de comando, entrar na pasta Seed.Spa.Ui e rodar o comando "ng serve --open"
+24-) Rodar a aplicação pelo Visual Studio
+
+25-) Abrir o prompt de comando, entrar na pasta Seed.Spa.Ui e rodar o comando "ng serve --open"
 
