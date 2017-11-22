@@ -26,9 +26,9 @@ Seed vazio para projetos  SPA / DDD / Gerador
 
 6-) escolher a opção 1 (clonar e copiar para aplicação)
 
-7-) No projeto Seed.Gen Mostar Todos os Arquivos 
+7-) No projeto Gerador.Gen Mostar Todos os Arquivos 
 
-8-) Incluir na pasta template as pastas Back e Front
+8-) Incluir na pasta templates as pastas Back e Front
 
 9-) Selecionar todos os aquivos da pasta Back e Front, clicar com botão direito , opção property e marcar para Copiar Sempre (Copy Always)
 
