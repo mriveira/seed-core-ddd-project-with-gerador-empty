@@ -55,12 +55,11 @@ Seed vazio para projetos  SPA / DDD / Gerador
 20-) Descomentar o código de autenticação default e retira o return fora da task no arquivo UserServices.cs do projeto Sso.Server.Api (dentro da da pata 6-SSO)
 
 21-) Remover o ponto e virgula e descomentar as linhas seguintes dentro do método ConfigureServices no arquivo Startup.cs (linha 48) do projeto Sso.Server.Api (dentro da da pata 6-SSO) 
+OBS: O método AddSigningCredential (desse mesmo arquivo) só deve ficar descomentado caso vc tenha um certificado digital - nesse caso vc deve descomentar esse método e comentar o método AddTemporarySigningCredential. Caso contrario, comentar o primeiro e descomentar o segundo.
 
-22-) O método AddSigningCredential (desse mesmo arquivo) só deve ficar descomentado caso vc tenha um certificado digital - nesse caso vc deve descomentar esse método e comentar o método AddTemporarySigningCredential. Caso contrario, comentar o primeiro e descomentar o segundo.
+22-) Clicar com botão direito na Solution, clicar na opção Properties, na opção Startup Project escolher Multiple Startup Projects e marcar como START os projetos Seed.Api e Sso.Server.Api
 
-23-) Clicar com botão direito na Solution, clicar na opção Properties, na opção Startup Project escolher Multiple Startup Projects e marcar como START os projetos Seed.Api e Sso.Server.Api
+23-) Rodar a aplicação pelo Visual Studio
 
-24-) Rodar a aplicação pelo Visual Studio
-
-25-) Abrir o prompt de comando, entrar na pasta Seed.Spa.Ui e rodar o comando "ng serve --open"
+24-) Abrir o prompt de comando, entrar na pasta Seed.Spa.Ui e rodar o comando "ng serve --open"
 
